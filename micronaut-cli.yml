@@ -1,0 +1,6 @@
+applicationType: cli
+defaultPackage: jdm.com.tusphan
+testFramework: spock
+sourceLanguage: java
+buildTool: maven
+features: [app-name, groovy-maven-plus-plugin, http-client, java, logback, maven, maven-enforcer-plugin, picocli, picocli-java-application, picocli-spock, properties, readme, serialization-jackson, shade, spock]
