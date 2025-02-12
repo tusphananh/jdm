@@ -1,3 +1,5 @@
+### Java Dependency Manager
+
 ## Micronaut 4.7.5 Documentation
 
 - [User Guide](https://docs.micronaut.io/4.7.5/guide/index.html)
