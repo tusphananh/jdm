@@ -28,7 +28,8 @@ public class JdmCommand implements Runnable {
                 // Fetch all available groupIds for the package
                 System.out.println("Fetching available groupIds for package: " + packageName);
                 String apiUrl = "https://search.maven.org/solrsearch/select?q=a:" + packageName + "&rows=50&wt=json";
-                URL url = new URL(apiUrl);
+                System.out.println("Fetching from: " + apiUrl);
+                URL url = new URI(apiUrl).toURL();
                 HttpURLConnection connection = (HttpURLConnection) url.openConnection();
                 connection.setRequestMethod("GET");
                 connection.setRequestProperty("Accept", "application/json");
