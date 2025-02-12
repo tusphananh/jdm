@@ -1,4 +1,4 @@
-### Java Dependency Manager
+# Java Dependency Manager
 
 ## Micronaut 4.7.5 Documentation
 
